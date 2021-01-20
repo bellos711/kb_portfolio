@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KB Portfolio</title>
+
+    <!-- LODASH FOR GITCH EFFECT -->
+    
+    <script src="lodash.js"></script>
+    <script src="script.js"></script>
+    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TITLE NAVBAR HEADING SECTION -->
+    <section id="title">
+        <div class="top-beegcontainer container-fluid">
+            
+          <!-- NAVIGATION START -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Kahlil Bello Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class=" nav-item active">
+                  <a class="nav-link" href="#">Main <span class="sr-only">(current)</span></a>
+                </li>
+                <li class=" nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class=" nav-item">
+                  <a id="github-nav" href="https://github.com/bellos711" target="blank">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- END NAVIGATION -->
+
+          <!-- GLITCH EFFECT -->
+          <div class="text-center">
+            <p class="lead text-gray-800 mt-4 mb-1">Hello, my name is</p>
+            <div class="error mx-auto" data-text="Kahlil">Kahlil</div>
+            
+            <p class="text-gray-500 mb-0">Web developer</p>
+          </div>
+        </div>
+        
+  </section>
+  <!-- END TOP-BEEGCONTAINER -->
+
+  <!-- CAROUSEL SHOWCASE-->
+
+  <section class="showcase">
+    <h1 class="mb-3">Recent Projects</h1>
+
+    <div class="container-showcase p-5 mx-auto ">
+      <div id="showcase-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <a href="https://mysuprashopapp.herokuapp.com/" target="blank">
+                <h3>Web Store - SupraShop</h3>
+                <img class="showcase-img" src="/images/portfolioimg.jpg" alt="portfolioimg"></a>
+          </div>
+          <div class="carousel-item">
+            
+            <a href="http://crossupon.info/" target="blank">
+              <h3>Blog Site with CMS - Crossupon</h3>
+              <img class="showcase-img" src="/images/portfolioimg2.jpg" alt="portfolioimg2"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://github.com/bellos711/unity_project_occult_h" target="blank">
+              <h3>Mini Game (Work In Progress)</h3>
+              <img class="showcase-img" src="/images/portfolioimg3.jpg" alt="portfolioimg3"></a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#showcase-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#showcase-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="box-card">
+    <div class="container">
+      <div class="box">
+        <div class="box-content row">
+          <div class="inner-box-content col-lg-12">
+            <h4>Languages I work with: </h4>
+            <p>HTML, CSS, C#, JavaScript, Python, C++, Java, PHP</p>
+          </div>
+          <div class="inner-box-content col-lg-12">
+            <h4>Dev Tools: </h4>
+            <p>VS Code, Visual Studio, Atom, MongoDB Compass, Postman, MySQL Workbench, phpMyAdmin, GitHub, Git</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- RECENT WORKS CARDS -->
+    <section class="recent-works ">
+      
+        <div class="container row">
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+              <div class="face face1">
+                  <div class="content">
+                      <img width="500" src="/images/portfolioimg.jpg" alt="portfolio projects">
+                      <h3>Web Store</h3>
+                  </div>
+              </div>
+              <div class="face face2">
+                  <div class="content">
+                      <p>MongoDB, Express, ReactJs, React Redux, Node.js, HTML, CSS, React Bootstrap</p>
+                          <a href="https://mysuprashopapp.herokuapp.com/" target="blank">Check</a>
+                  </div>
+              </div>
+          </div>
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+              <div class="face face1">
+                  <div class="content">
+                      <img width="500" src="/images/portfolioimg2.jpg" alt="portfolio projects">
+                      <h3>Blog Site</h3>
+                  </div>
+              </div>
+              <div class="face face2">
+                  <div class="content">
+                      <p>PHP, MySQL, HTML, CSS, Bootstrap</p>
+                          <a href="http://crossupon.info/" target="blank">Check</a>
+                  </div>
+              </div>
+          </div>
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+              <div class="face face1">
+                  <div class="content">
+                      <img width="500" src="/images/portfolioimg3.jpg" alt="portfolio projects">
+                      <h3>Minigame(WIP)</h3>
+                  </div>
+              </div>
+              <div class="face face2">
+                  <div class="content">
+                      <p>Unity C#</p>
+                          <a href="https://github.com/bellos711/unity_project_occult_h">Check</a>
+                  </div>
+              </div>
+          </div>
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <div class="face face1">
+                <div class="content">
+                    <img width="500" src="/images/portfolioimg4.jpg" alt="portfolio projects">
+                    <h3>Scraper Project</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>ASP.NET MVC, C#, MySQL, HTML, CSS</p>
+                        <a href="https://github.com/nathan-roe/ScamScraper" target="blank">Check</a>
+                </div>
+            </div>
+        </div>
+        <div class="card col-lg-4 col-md-6 col-sm-12">
+          <div class="face face1">
+              <div class="content">
+                  <img width="500" src="/images/portfolioimg5.jpg" alt="portfolio projects">
+                  <h3>Ordering System</h3>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <p>Django, Python, SQLite, HTML, CSS, Bootstrap</p>
+                      <a href="https://github.com/bellos711/python_project_mini_webapp" target="blank">Check</a>
+              </div>
+          </div>
+      </div>
+      <div class="card col-lg-4 col-md-6 col-sm-12">
+              <div class="face face1">
+                  <div class="content">
+                      <img width="500" src="/images/portfolioimg6.jpg" alt="portfolio projects">
+                      <h3>Dice Game</h3>
+                  </div>
+              </div>
+              <div class="face face2">
+                  <div class="content">
+                      <p>Android Studio, Java</p>
+                          <a href="https://github.com/bellos711/project_mobile_dice_game" target="blank">Check</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <!-- END CARDS OF CONTAINER -->
+  </section>
+
+
+  <footer class="bg-light text-lg-start">
+    
+    <!-- Copyright -->
+    <div class="footerdiv p-3 " >
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/kahlil-bello/" target="blank">
+          <i class="fa fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/bellos711" target="blank">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="mailto:bellos711@gmail.com">
+          <i class="fa fa-envelope"></i>
+        </a>
+      </div>
+      Put together by me © 2021:
+      <a  href="#">Kahlil Bello Online Portfolio</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+
+    <!-- SCRIPTS -->
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
